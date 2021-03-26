@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Exercice</title>
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/exercise.css" />
+</head>
+
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand"><img id="pika" src="./img/pokemon.png" /></a>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-6 offset-3 instructions df ">
+                <h4>Type a number to see your pokemon</h4>
+            </div>
+            <div class="col-12 exercise">
+                <div id="exercise">
+                    <input class="form-control mb-3" value="" />
+                    <p>Pokemon: <span id="pokemon"></span></p>
+                    <p>Type: <span id="type"></span></p>
+                    <div id="stripe"></div>
+                    <button class="btn btn-success">search</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../assets/js/jquery-3.3.1.min.js"></script>
+    <script src="../assets/js/functions.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

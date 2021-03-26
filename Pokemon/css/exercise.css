@@ -1,0 +1,42 @@
+/**
+ * Main color: #0475ba
+ * Secondary color: #FFFFFF
+ */
+body {
+    background: #E30713;
+    color: #FFFFFF;
+}
+
+.navbar-brand img {
+    width: 70px;
+}
+
+.instructions {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#pika{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+}
+.instructions p {
+    color: #AAAAAA;
+}
+
+.instructions a {
+    color: lightgreen;
+}
+
+#exercise {
+    position: relative;
+    background-color: #FFFFFF;
+    height: 400px;
+    padding: 20px;
+    margin-bottom: 100px;
+    color: #000000;
+}
+
+
+
